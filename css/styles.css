@@ -1,0 +1,180 @@
+#title{
+  background-color: #FD3A69;
+  color: #fff;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 5% 11%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 900;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 10%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 3.7rem ;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Download Buttons */
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+  bottom: -12rem;
+}
+.title-img-col{
+  padding-bottom: 7%;
+}
+/* features-row */
+#features{
+  background-color: #FFE3E3;
+  padding: 6% 5%;
+  position: relative;
+  z-index: 1;
+}
+.fas{
+  font-size: 3rem;
+  padding: 5% 4%;
+  color: #EF4F4F;
+}
+.fas:hover{
+  color: #FF577F;
+}
+/* Testimonials Section */
+#testimonials{
+  text-align: center;
+  background-color: #FF577F;
+  color: #fff;
+}
+.testimonials-img2{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+.carousel-item {
+  padding: 6% 5%;
+}
+/* Press */
+#press{
+  background-color: #FF577F;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  background-color: #FFE3E3;
+  text-align: center;
+  padding: 6% 5%;
+}
+.pricing-box{
+  padding-bottom: 6%;
+}
+.pricing-h2{
+  margin-bottom: 0;
+}
+.column{
+  padding: 3% 2%;
+}
+.card{
+  background-color: #F4F4F2;
+  /* background-color: #E8E8E8; */
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+@media (max-width: 991px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+/* cta & footer */
+#cta{
+  text-align: center;
+  background-color: #FF577F;
+  padding: 3.125rem 0;
+
+}
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#footer{
+  text-align: center;
+  background-color: #FFE3E3;
+  padding: 1.875rem 0;
+
+}
+.footer-p{
+  margin: 0;
+  padding-bottom: 1.875rem;
+}
+.foot-icon{
+  font-size: 1.5rem;
+  padding: 2.5% 2%;
+  color: #212529;
+}
+/* i did add this becuse of the inherit color of fas/fas:hover*/
+ .foot-icon:hover{
+  color: #212529;
+}
